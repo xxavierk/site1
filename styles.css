@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "courgette";
+    src: url("ressources/Courgette-Regular.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+}
+
+.container  {
+    width: 980px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "courgette";
+    color: #003884;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #4f89b9;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav {
+    text-align: left;
+    font-weight: 700;
+    color: #003884;
+    font-family: "courgette";
+    margin: 10px 0;
+}
+
+nav a {
+    font-family: "courgette";
+    color: #003884;
+}
+
+blockquote {
+    background-color: #d7e1ef;
+    font-family: "courgette";
+    color: #003884;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.signature {
+    font-family: "courgette";
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.bleu {
+    color: #003884;
+}
+
+.droite {
+    float: right;
+    display:inline-block;
+    margin: 5px;
+}
+
+.gauche {
+    float: left;
+    display:inline-block;
+    margin: 5px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify; /* justification du texte (alignement a droite et a gauche) */
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+}
